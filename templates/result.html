@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+  </head>
+  <body>
+
+    <h1><strong>SENTIMENTAL ANALYSIS</strong></h1>
+    <p>
+        <strong>POLARITY  [Neutral:0.0,Positive:1.0,Negative:-1.0]</strong>
+
+         <p>{{polarity_out}}</p>
+    </p>
+    <p>
+        <img src="static/{{image}}" />
+    </p> 
+    <p>
+        <strong>AFTER TRAINING THE DATA</strong>
+        <p>{{video_result}}</p>
+        <p>
+            <img src="data:image/png;base64,{{img_data}}" alt="Sentiment Analysis">
+        </p>
+  </body>
+</html>
